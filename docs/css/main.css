@@ -412,6 +412,13 @@ button:focus {
   height: 100vh;
 }
 
+/* only small tablets */
+@media (min-width: 320px) and (max-width: 500px) {
+  #hero-area {
+    background-size: contain;
+  }
+}
+
 #hero-area .overlay {
   position: absolute;
   width: 100%;
