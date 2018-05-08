@@ -407,8 +407,9 @@ button:focus {
   background: url(../img/0-KBunn40th_IntroItinerary.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
-  /*overflow: hidden;*/
+  overflow: hidden;
   position: relative;
+  height: 100vh;
 }
 
 #hero-area .overlay {
